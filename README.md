@@ -9,7 +9,7 @@
 
 O DataSafe Educ é uma plataforma inovadora de Inteligência de Dados voltada à gestão educacional pública. Utilizando análise estratégica de indicadores escolares, ajudamos gestores a identificar riscos de evasão com antecedência, permitindo decisões mais rápidas, assertivas e baseadas em evidências.
 
-🚀 Funcionalidades
+**🚀 Funcionalidades**
 
 📊 Índice de Risco de Abandono (IRA) – Cálculo automatizado para identificar escolas e municípios em situação crítica;<br>
 📈 Dashboards Interativos – Visualização clara e dinâmica dos indicadores educacionais;<br>
@@ -17,7 +17,7 @@ O DataSafe Educ é uma plataforma inovadora de Inteligência de Dados voltada à
 🔐 Acesso Seguro – Plataforma com autenticação para usuários governamentais;<br>
 📚 Baseado em Dados Oficiais – Utilização de indicadores educacionais públicos para geração de inteligência estratégica;<br>
 
-🌟 Sobre a Plataforma
+**🌟 Sobre a Plataforma**
 
 O DataSafe Educ nasce com o propósito de transformar dados educacionais em inteligência aplicada à gestão pública.
 
@@ -29,7 +29,7 @@ Visão: Ser referência nacional em inteligência educacional e apoio à gestão
 
 Valores: Inclusão social, responsabilidade pública, inovação, precisão analítica e compromisso com o impacto social;<br>
 
-🎯 Impacto Esperado
+**🎯 Impacto Esperado**
 
 ✔ Redução das taxas de evasão escolar
 ✔ Tomada de decisão mais ágil e estratégica
