@@ -31,19 +31,169 @@
     <div class="overlay"></div>
 
     <div class="content">
-      <span class="tag">NEGÓCIOS DO AMANHÃ</span>
+      <span class="tag"><b>NEGÓCIOS DO AMANHÃ</b></span>
       <h1>Inteligência de<br>Dados<br>Educacionais.</h1>
     </div>
   </section>
 
-  <!-- Conteúdo quem somos -->
-    <div class="main">
-      <h2>Pelo que Prezamos?</h2>
-      <img src="" alt="">
-      <p>Os negócios do amanhã precisam ser construídos sobre alicerces equilibrados: empatia e pragmatismo; previsão e insight; humanidade e tecnologia. Na Consult, tratamos as empresas como parceiras, com forte foco na colaboração.</p>
-      <h3>Vemos nossos clientes como humanos e trabalhamos com os desafios que eles enfrentam.</h3>
+  <!-- Conteúdo quem somos (Pelo que prezamos) -->
+  <div class="main">
+    <h2 class="section-title">Pelo que prezamos?</h2>
+
+    <div class="main_section">
+      <div class="image-box">
+        <img src="assets/imgs/section1.png" alt="">
+      </div>
+
+      <div class="text-box">
+        <p>
+          Os negócios do amanhã precisam ser construídos sobre alicerces equilibrados:
+          empatia e pragmatismo; previsão e insight; humanidade e tecnologia.
+          Na Consult, tratamos as empresas como parceiras, com forte foco na colaboração.
+        </p>
+
+        <h3>
+          Vemos nossos clientes como humanos e trabalhamos com os desafios que eles enfrentam.
+        </h3>
+      </div>
     </div>
+  </div>
+
+  <hr>
+
+  <!-- Serviços -->
+
+  <section class="services">
+    <h2 class="services-title">Serviços</h2>
+
+    <div class="services-cards">
+      <div class="service-card">
+        <img src="assets/imgs/serv1.png" alt="Análise de evasão escolar">
+        <p>ANÁLISE DE EVASÃO<br>ESCOLAR</p>
+      </div>
+
+      <div class="service-card">
+        <img src="assets/imgs/serv2.png" alt="Apoio à tomada de decisão">
+        <p>APOIO À TOMADA DE<br>DECISÃO COM DADOS</p>
+      </div>
+
+      <div class="service-card">
+        <img src="assets/imgs/serv3.png" alt="Gestão educacional">
+        <p>FOCO EM GESTÃO<br>EDUCACIONAL</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="cta-left">
+      <h2>
+        Cada desafio é único.<br>
+        Vamos falar<br>
+        sobre o seu.
+      </h2>
+
+      <p>
+        Calcule aqui a sua<br>
+        economia potencial<br>
+        com a DataSafe<br>
+        Educ
+      </p>
+    </div>
+
+    <div class="cta-right">
+      <form class="cta-form">
+        <label>Endereço de e-mail</label>
+        <input type="email">
+
+        <label>Quantidade de alunos</label>
+        <input type="number">
+
+        <label>Custo médio por aluno</label>
+        <input type="number">
+
+        <label>Repasse perdido por aluno evadido (ex: FUNDEB)</label>
+        <input type="number">
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="impact">
+    <div class="impact-left">
+      <p class="impact-description">
+        Esta simulação demonstra como a redução da evasão escolar pode gerar
+        impacto financeiro positivo, auxiliando gestores na tomada de decisões
+        estratégicas.
+      </p>
+
+      <div class="chart-container">
+        <canvas id="impactChart"></canvas>
+      </div>
+    </div>
+
+    <div class="impact-right">
+      <h2>Impacto<br>Financeiro<br>Estimado</h2>
+
+      <p>
+        Com base nos dados informados, esta simulação estima o impacto financeiro
+        da evasão escolar e o potencial de economia com a redução desse índice por
+        meio de ações preventivas.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./js/chart.js"></script>
+
 
 </body>
 
 </html>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const ctx = document.getElementById("impactChart");
+
+    if (!ctx) {
+      console.error("Canvas impactChart não encontrado");
+      return;
+    }
+
+    new Chart(ctx, {
+      type: "bar",
+      data: {
+        labels: ["Item 1", "Item 2", "Item 3"],
+        datasets: [
+          {
+            label: "Série 1",
+            data: [3, 8, 16],
+            backgroundColor: "#ff9f50",
+            borderRadius: 6
+          },
+          {
+            label: "Série 2",
+            data: [6, 14, 18],
+            backgroundColor: "#ff6a00",
+            borderRadius: 6
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            position: "top"
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  });
+</script>
