@@ -7,32 +7,32 @@
 
 <br>
 
-O DataSafe Educ é uma plataforma inovadora de Inteligência de Dados voltada à gestão educacional pública. Utilizando análise estratégica de indicadores escolares, ajudamos gestores a identificar riscos de evasão com antecedência, permitindo decisões mais rápidas, assertivas e baseadas em evidências.
+O DataSafe Educ é uma plataforma de inteligência de dados projetada para transformar a preparação para o vestibular. Ao converter dados públicos do INEP em estratégias pedagógicas, permitimos que cursinhos preparatórios foquem no que realmente cai na prova, otimizando o tempo de estudo e maximizando os resultados dos alunos.
 
 **🚀 Funcionalidades**
 
-📊 Índice de Risco de Abandono (IRA) – Cálculo automatizado para identificar escolas e municípios em situação crítica;<br>
-📈 Dashboards Interativos – Visualização clara e dinâmica dos indicadores educacionais;<br>
-🎯 Monitoramento Preventivo – Análise periódica para antecipar cenários de evasão;<br>
-🔐 Acesso Seguro – Plataforma com autenticação para usuários governamentais;<br>
-📚 Baseado em Dados Oficiais – Utilização de indicadores educacionais públicos para geração de inteligência estratégica;<br>
+📊 Mapas de Dificuldade – Identificação precisa dos temas mais complexos e recorrentes por área do conhecimento;
+
+📈 Ranking de Habilidades Críticas – Priorização de conteúdos baseada na Teoria de Resposta ao Item (TRI);
+
+🎯 Análise de Tendências – Monitoramento da evolução dos temas cobrados nas últimas edições do exame;
+
+🔐 Relatórios Estratégicos – Geração de dossiês customizados para coordenações pedagógicas;
+
+📚 Inteligência Competitiva – Comparativo de desempenho para posicionamento de mercado dos cursinhos;
 
 **🌟 Sobre a Plataforma**
 
-O DataSafe Educ nasce com o propósito de transformar dados educacionais em inteligência aplicada à gestão pública.
-
-A evasão escolar não acontece de forma repentina — ela é precedida por sinais como queda no desempenho, baixa frequência e vulnerabilidade social. A plataforma organiza esses dados e os converte em alertas estratégicos, permitindo intervenção antes que o abandono se concretize.
-
-Missão: Reduzir a evasão escolar por meio de análise preventiva e tomada de decisão baseada em dados;<br>
-
-Visão: Ser referência nacional em inteligência educacional e apoio à gestão pública;<br>
-
-Valores: Inclusão social, responsabilidade pública, inovação, precisão analítica e compromisso com o impacto social;<br>
+O DataSafe Educ nasceu para substituir o "achismo" pedagógico por evidências estatísticas.
+Muitos cursinhos replicam grades curriculares extensas e genéricas, ignorando os padrões reais da prova. A plataforma organiza o histórico de microdados do ENEM e os traduz em alertas estratégicos, permitindo que os professores ajustem o foco das aulas e dos simulados para o que de fato gera impacto na nota final.
+Missão: Potencializar a aprovação de estudantes através do uso estratégico de dados no ensino preparatório;
+Visão: Ser o principal motor de inteligência analítica para o mercado de reforço educacional no Brasil;
+Valores: Precisão estatística, inovação pedagógica, eficiência educacional e decisões baseadas em evidências;
 
 **🎯 Impacto Esperado**
 
-✔ Redução das taxas de evasão escolar
-✔ Tomada de decisão mais ágil e estratégica
-✔ Melhor direcionamento de políticas públicas
-✔ Uso eficiente de recursos educacionais
-✔ Fortalecimento da permanência escolar
+✔ Aumento na taxa de aprovação dos alunos
+✔ Otimização do cronograma de aulas e revisões
+✔ Diferenciação competitiva para cursinhos preparatórios
+✔ Redução de desperdício de tempo com conteúdos de baixa recorrência
+✔ Tomada de decisão pedagógica rápida e assertiva
