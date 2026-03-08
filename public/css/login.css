@@ -8,7 +8,7 @@
 
 :root{
     --main: #ffff;
-    --seundaria: #ff6105;
+    --seundaria: #1a3c5e;
 }
 
 body {
@@ -82,7 +82,7 @@ input{
 }
 
 button{
-    background-color: #ffa125;
+    background-color: #2563a8;
     color: var(--main);
     font-size: 2vw;
     border-radius: 20px;
